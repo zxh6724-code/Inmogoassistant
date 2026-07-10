@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Academic Voice Assistant</string>
+    <string name="subtitle">Speak your lecture notes, questions, or ideas</string>
+    <string name="btn_speak">Speak</string>
+    <string name="btn_stop">Stop</string>
+    <string name="btn_clear">Clear</string>
+    <string name="status_ready">Tap the mic to start speaking</string>
+    <string name="status_listening">Listening...</string>
+    <string name="status_processing">Processing speech...</string>
+    <string name="transcript_placeholder">Your transcribed text will appear here. Tap the microphone button and start speaking.</string>
+    <string name="toast_stt_started">Listening... speak your question</string>
+    <string name="toast_permission_granted">Microphone permission granted</string>
+    <string name="toast_permission_denied">Microphone permission is required for speech recognition</string>
+    <string name="stt_error_no_recognizer">Speech recognition is not available on this device</string>
+    <string name="stt_error_network">Network error. Check your internet connection</string>
+    <string name="stt_error_audio">Audio error. Please try again</string>
+    <string name="stt_error_other">Speech recognition error. Please try again</string>
+</resources>
+</write_to_file>
