@@ -9,11 +9,11 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
-      - name: Build with Gradle
+      - name: Build
         run: |
-          chmod +x gradlew
+          find . -name "gradlew" -exec chmod +x {} \;
           ./gradlew assembleDebug
-      - name: Upload APK
+      - name: Upload
         uses: actions/upload-artifact@v4
         with:
           name: app-debug
